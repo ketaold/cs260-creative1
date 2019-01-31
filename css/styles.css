@@ -1,10 +1,12 @@
 /* Menu */
+
 .bg-light {
-    background-color: #562424 !important;
+    background-color: #457b9d !important;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #aaa;
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e63946;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -12,19 +14,19 @@
 }
 
 html {
-  height: 100%;
-  box-sizing: border-box;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /* Footer */
 footer {
-    background-color:  #ddd;
+    background-color: #a8dadc;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -36,13 +38,13 @@ footer p {
 }
 
 a:link {
-  color: #c17171;
+    color: #e63946;
 }
 
 a:visited {
-  color: #c17171;
+    color: #e63946;
 }
 
 a:active {
-  color: blue;
+    color: blue;
 }
