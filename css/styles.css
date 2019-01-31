@@ -73,10 +73,12 @@ h2 {
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8vw;
-    margin-bottom: 0px;
+    color: 1D3557;
+}
+
+.aboutpar {
     padding-left: 5em;
     padding-right: 5em;
-    color: 1D3557;
 }
 
 .icons {
@@ -94,10 +96,10 @@ p {
 
 .item {
     display: inline-block;
-    background: #f1dfdf;
-    padding: 1.5em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    background: #a8dadc;
+    padding: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
     margin-top: .6em;
     margin-bottom: .6em;
     width: 100%;
@@ -118,12 +120,16 @@ p {
     grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    width: 95%;
 }
 
 .image img {
-    width: 100%;
-    padding: 2vw;
-    margin: .5vw;
+    width: 95%;
+    padding: .5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: .6em;
+    margin-bottom: .6em;
     background-color: #a8dadc;
 }
 
@@ -166,4 +172,54 @@ a:active {
     top: 50%;
     transform: translate(0, -50%);
     padding-left: 2em;
+}
+
+/* If mobile */
+
+@media (max-width: 767px) {
+    .masonry {
+        column-count: 1;
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .grid {
+        grid-template: auto auto auto auto auto / 1fr;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+    }
+
+    .item {
+        border-radius: .1em;
+    }
+
+    footer {
+        height: 8vw;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: .8em;
+        padding: 1em;
+
+    }
+
+    p {
+        font-size: 5vw;
+    }
+
+    .image {
+        margin-left: .1em;
+        margin-right: .1em;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        padding: .1em;
+    }
+
+    .grid {
+        width: 75%;
+    }
 }
