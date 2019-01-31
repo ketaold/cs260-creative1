@@ -40,26 +40,48 @@ container {
     position: relative;
 }
 
+/* Home */
 h1 {
     text-align: center;
     padding: 1em;
-    color: white;
+    color: 1D3557;
     font-weight: bolder;
     font-size: 2em;
+    padding-bottom: .7em;
 }
 
-p {
+h2 {
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 0px;
     padding-left: 5em;
     padding-right: 5em;
-    color: white;
+    color: 1D3557;
 }
 
-/* Home */
+
 #home {
     background-image: url("/resources/cool-background.jpg");
     background-size: cover;
+}
+
+.hometext {
+    color: white;
+}
+
+/* About */
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8vw;
+    margin-bottom: 0px;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: 1D3557;
+}
+
+.icons {
+    text-align: center;
+    padding-bottom: 2vw;
 }
 
 /* Footer */
