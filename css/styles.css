@@ -1,5 +1,13 @@
 /* Menu */
 
+body {
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 2em;
+    padding-bottom: 5%;
+    position: relative;
+    min-height: 100%;
+}
+
 .bg-light {
     background-color: #457b9d !important;
 }
@@ -13,6 +21,7 @@
     color: #fff;
 }
 
+/* Body */
 html {
     height: 100%;
     box-sizing: border-box;
@@ -24,7 +33,37 @@ html {
     box-sizing: inherit;
 }
 
+container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0px;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: white;
+}
+
+/* Home */
+#home {
+    background-image: url("/resources/cool-background.jpg");
+    background-size: cover;
+}
+
 /* Footer */
+
 footer {
     background-color: #a8dadc;
     position: absolute;
@@ -35,6 +74,13 @@ footer {
 
 footer p {
     font-family: 'Raleway', sans-serif;
+    font-size: .5em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-left: 2em;
+    color: #1D3557;
 }
 
 a:link {
@@ -47,4 +93,12 @@ a:visited {
 
 a:active {
     color: blue;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-left: 2em;
 }
